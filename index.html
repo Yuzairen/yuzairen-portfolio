@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Yuzairen Yusof | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Nunito:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="zen-navbar">
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+    </nav>
+
+    <header class="zen-hero" data-aos="fade-down">
+        <div class="hero-content">
+            <h1 class="name">Yuzairen Yusof</h1>
+            <p class="subtitle">Full Stack Web Developer</p>
+        </div>
+    </header>
+
+    <div class="divider">
+        <img src="assets/images/waves.png" alt="Divider">
+    </div>
+
+    <section id="about" class="about scroll-offset" data-aos="fade-up">
+        <div class="overlays">
+            <img src="assets/images/sakura_overlay.png" alt="" class="overlay" id="sakura-overlay">
+            <img src="assets/images/bambo.png" alt="" class="overlay" id="bamboo-overlay">
+        </div>
+        <h2><img src="assets/icons/enso.svg" alt="Enso icon" class="section-icon"> About Me</h2>
+        <p class="about-placeholder">Hi, I'm Yuzairen Yusof, a passionate Information Technology student at Universiti Kebangsaan Malaysia (UKM). I enjoy building clean, user-friendly web applications often blending technical precision with thoughtful, creative design. My interests include full-stack development, UI/UX, and exploring how technology can simplify real-world tasks. I believe good software should always feel natural and full of purpose. When I'm not coding, you might find me browsing through internet for designs inspiration, listening to chill musics, or learning something new. I love working on projects that grow with purpose and always welcome a challenge.
+        </p>
+
+        <div class="skills-container">
+            <div class="skill-card">
+                <img src="assets/icons/html5.svg" alt="HTML5">
+                <span>HTML5</span>
+            </div>
+            <div class="skill-card">
+                <img src="assets/icons/css.svg" alt="CSS3">
+                <span>CSS3</span>
+            </div>
+            <div class="skill-card">
+                <img src="assets/icons/javascript.svg" alt="JavaScript">
+                <span>JavaScript</span>
+            </div>
+            <div class="skill-card">
+                <img src="assets/icons/php.svg" alt="PHP">
+                <span>PHP</span>
+            </div>
+            <div class="skill-card">
+                <img src="assets/icons/mysql.svg" alt="MySQL">
+                <span>MySQL</span>
+            </div>
+            <div class="skill-card">
+                <img src="assets/icons/git.svg" alt="GitHub">
+                <span>Git</span>
+            </div>
+        </div>
+    </section>
+
+    <div class="divider">
+        <img src="assets/images/waves.png" alt="Divider">
+    </div>
+
+    <section id="projects" class="projects">
+        <h2><img src="assets/icons/scroll.svg" alt="Project icon" class="section-icon">Projects</h2>
+
+        <!-- Project 1 -->
+        <div class="project-wrapper" data-aos="fade-right">
+            <a href="https://your-spp-project-link.com" target="_blank" class="project-link">
+                <img src="assets/images/spp_page.png" alt="SPP Project Screenshot" class="project-image">
+            </a>
+            <div class="project-info">
+                <h3>SPP</h3>
+                <p>Smart Pasukan Pengurusan — a web-based team management tool with attendance, reports, and role-based access.</p>
+                <div class="project-buttons">
+                    <a href="https://your-spp-project-link.com" class="btn" target="_blank">Live App</a>
+                    <a href="#" class="btn">Learn More</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-wrapper reverse" data-aos="fade-left">
+            <a href="http://lrgs.ftsm.ukm.my/users/a193602/final/" target="_blank" class="project-link">
+                <img src="assets/images/xmerch_page.png" alt="XMerch Project Screenshot" class="project-image">
+            </a>
+            <div class="project-info">
+                <h3>XMerch</h3>
+                <p>An online merchandise management platform with ordering, stock tracking, and QR code delivery system.</p>
+                <div class="project-buttons">
+                    <a href="http://lrgs.ftsm.ukm.my/users/a193602/final/" class="btn" target="_blank">Live App</a>
+                    <a href="#" class="btn">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="divider">
+        <img src="assets/images/waves.png" alt="Divider">
+    </div>
+
+    <section id="contact" class="contact">
+        <h2><img src="assets/icons/send.svg" alt="Contact icon" class="section-icon">Contact Me</h2>
+            <form id="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+                <p id="form-status"></p>
+            </form>
+
+        <div class="social-links">
+            <a href="https://github.com/Yuzairen" target="_blank">
+            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/github.svg" alt="GitHub">
+            </a>
+            <a href="https://linkedin.com/in/yuzairenyusof" target="_blank">
+            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/linkedin.svg" alt="LinkedIn">
+            </a>
+            <a href="https://instagram.com/muhdyuzai" target="_blank">
+            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/instagram.svg" alt="Instagram">
+            </a>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script>
+    (function() {
+        emailjs.init("mie2fAFbEbXcoaZCg"); 
+    })();
+
+    document.getElementById('contact-form').addEventListener('submit', function(e) {
+        e.preventDefault();
+        emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', this)
+        .then(() => {
+            document.getElementById('form-status').innerText = "Message sent successfully!";
+            this.reset();
+        }, (error) => {
+            document.getElementById('form-status').innerText = "Failed to send. Please try again.";
+            console.error('FAILED...', error);
+        });
+    });
+    </script>
+    
+    <footer>
+      <p><img src="assets/icons/leaf.svg" alt="footer icon" class="section-icon">&copy; 2025 Yuzairen Yusof</p>
+    </footer>
+
+    <!-- AOS Library JS -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+    AOS.init({
+        duration: 1000, 
+        once: false      
+    });
+    </script>
+
+    <div class="sakura-background"></div>
+
+    <script>
+    const petalContainer = document.querySelector('.sakura-background');
+    const numPetals = 20;
+
+    for (let i = 0; i < numPetals; i++) {
+        const petal = document.createElement("div");
+        petal.className = "petal";
+        petal.style.left = `${Math.random() * 100}vw`;
+        petal.style.animationDuration = `${5 + Math.random() * 5}s`;
+        petal.style.animationDelay = `${Math.random() * 5}s`;
+        petalContainer.appendChild(petal);
+    }
+    </script>
+
+</body>
+</html>
