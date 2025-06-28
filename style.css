@@ -135,8 +135,8 @@ section {
 .skills-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-  gap: 1.5rem;
-  margin-top: 2rem;
+  gap: 8px;
+  margin-top: 32px;
   justify-items: center;
   align-items: center;
 }
@@ -146,9 +146,6 @@ section {
   flex-direction: column;
   align-items: center;
   padding: 1rem;
-  background-color: rgba(255, 255, 255, 0.6);
-  border-radius: 12px;
-  box-shadow: 0 2px 8px var(--paper-shadow);
   transition: transform 0.2s ease;
   text-align: center;
 }
